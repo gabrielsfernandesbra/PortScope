@@ -1,40 +1,32 @@
 # PortScope
 
-A lightweight TCP port scanner written in C.
+Um scanner de portas TCP leve, desenvolvido em C.
 
-## Installation
+## Instalação
 
 ### Windows
 
-Compile using GCC (MinGW):
+Compile utilizando GCC (MinGW):
 
-```bash
-gcc main.c -o scanner.exe -lws2_32
-```
+    gcc main.c -o scanner.exe -lws2_32
 
-## Usage
+## Utilização
 
 ### IPv4
 
-```bash
-.\scanner.exe <IP_ADDRESS>
-```
+    .\scanner.exe <ENDEREÇO_IP>
 
-Example:
+Exemplo:
 
-```bash
-.\scanner.exe 192.168.0.1
-```
+    .\scanner.exe 127.0.0.1
 
-## Features
+## Funcionalidades
 
-- TCP port scanning
-- IPv4 support
-- Written in C
-- Windows support
+- Varredura de portas TCP
+- Suporte a IPv4
+- Desenvolvido em C
+- Compatível com Windows
 
 ## License
 
 This project is licensed under the MIT License.
-
-Copyright (c) 2026 Gabriel S Fernandes
